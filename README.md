@@ -3,7 +3,7 @@
   </h1>
 
 ## Curso
--curso Técnico em Análise de Desenvolvimento de Sistemas
+- curso Técnico em Análise de Desenvolvimento de Sistemas
 
 ## Cronograma 
 - [x] aula 04 introdução ao github 07/02/2024
