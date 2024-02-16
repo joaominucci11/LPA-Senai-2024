@@ -41,8 +41,7 @@ programa
 		senao se (operador == '*')
 		{
           	resultado = n1 * n2
-		} senao
-		
+		}
 		se (operador == '+' ou operador == '-' ou operador == '*' 
 		ou operador == '/')
 		
@@ -63,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 618; 
+ * @POSICAO-CURSOR = 606; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
