@@ -42,15 +42,16 @@ programa
 		{
           	resultado = n1 * n2
 		} senao
+		se (operador == '+' ou operador == '-' ou operador == '*' 
+		ou operador == '/')
 		
 		{
-		escreva("operador invalido! Escolha +, -, * ou /.")
-		}
-		limpa()
-		escreva("Resultado: ")
-		escreva(n1, " ", operador, " ", n2, " = ", resultado)
-		escreva("\n")		
-			
+		
+			escreva("Resultado: ")
+			escreva(n1, " ", operador, " ", n2, " = ", resultado)
+			escreva("\n")		
+		} senao
+			escreva("operador invalido! Escolha +, -, * ou /.")	
 		
 		
 		
@@ -61,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 784; 
+ * @POSICAO-CURSOR = 676; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
