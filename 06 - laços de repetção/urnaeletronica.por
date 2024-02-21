@@ -47,6 +47,24 @@ programa
            nulos++
 	  }
      } enquanto( voto != 0 )
+
+     total = candidatoA + candidatoB + Brancos + nulos
+
+     se( total > 0)
+	{
+		porcentCandA = (candidatoA * 100.0) / total 
+		porcentCandB = (candidatoB * 100.0) / total 
+		porcentBrancos = (Brancos * 100.0) / total 
+		porcentNulos = (nulos * 100.0) / total 
+
+		escreva("\n")
+
+		escreva("total de votos: ", total, "\n\n")
+		escreva("Candidato A: ", candidatoA, " voto(s).", porcentCandA, " % do total\n")
+		escreva("Candidato B: ", candidatoB, " voto(s).", porcentCandB, " % do total\n")
+		escreva("Brancos: ", Brancos, " voto(s).", porcentBrancos, " % do total\n")
+		escreva("nulos: ", nulos, " voto(s).", porcentNulos, " % do total\n")
+	}
    }
 }
 /* $$$ Portugol Studio $$$ 
@@ -54,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 954; 
+ * @POSICAO-CURSOR = 90; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
