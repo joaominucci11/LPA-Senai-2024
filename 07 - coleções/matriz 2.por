@@ -19,6 +19,10 @@ programa
 	}
 		
 	funcao preencher( real coordenadas [][]){
+	
+		
+		escreva("longitude\tlatitude\n")
+		escreva("========\t========\n")
 		para( inteiro i = 0; i < u.numero_linhas(coordenadas) ; i++)
 		{
 			para ( inteiro j = 0; j < u.numero_colunas(coordenadas); j++ ){
@@ -38,10 +42,24 @@ programa
 		
 		para( inteiro i = 0; i < u.numero_linhas(coordenadas) ; i++)
 		{
-			para ( inteiro j = 0; j < u.numero_colunas(coordenadas); j++ ){
-				escreva(coordenadas[i][j], "\t")	
+			para (inteiro j = 0; j < u.numero_colunas(coordenadas); j++ ){
+				se (coordenadas[i][j] >= 0.0 ){
+					escreva(" ")
+				}
+				se (coordenadas[i][j]< 10.0 e coordenadas[i][j] > -10.0){
+					escreva(" ")
+				
+				}
+				se (coordenadas[i][j]< 100.0 e coordenadas[i][j] > -100.0){
+					escreva(" ")
+				
+				}
+				escreva(coordenadas[i][j], "\t\t")	
+			
+			
 			}
 			escreva("\n")
+			
 			
 		}
 			
@@ -53,7 +71,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 602; 
+ * @POSICAO-CURSOR = 1140; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
