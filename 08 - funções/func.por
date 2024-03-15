@@ -1,3 +1,10 @@
+/*
+ * Algoritmo: func
+ * Autor: joão Pedro Minucci Regueira
+ * 15/03/2024
+ */
+
+
 programa
 {
 
@@ -30,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 456; 
+ * @POSICAO-CURSOR = 21; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
